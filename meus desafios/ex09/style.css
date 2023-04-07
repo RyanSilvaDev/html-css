@@ -1,14 +1,47 @@
 
 body{
-    background-color: black;
+  font-family: sans-serif;
+  
+    background-color: rgb(31, 31, 31);
+    background-repeat: no-repeat;
+   background-position: top center;
+   height: 96vh;
 }
-div#position{
-  position: relative;
+h1{
+  color: white;
+  text-align: center;
 }
-    
-img#html{
-    position: absolute;
-    left: 30%;
-    top: 30%;
+img{
+  
+ 
+}
+
+div#html{
+ position: absolute;
+ right: 50%;
+ bottom: 50%;
+ transform: translate(-3px,-275px);
+} 
+
+div#java{
+  position: absolute;
+  left:50%;
+  bottom:50%;
+  transform: translate(+3px,-275px);
+}
+div#hardware{
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(-3px,-275px)
+}
+div#programa{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(+3px,-275px)
 
 }
+    
+
+
