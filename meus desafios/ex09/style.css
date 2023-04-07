@@ -2,8 +2,13 @@
 body{
     background-color: black;
 }
-img{
-    display: block;
-    margin: auto;
-    columns: 2;
+div#position{
+  position: relative;
+}
+    
+img#html{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+
 }
