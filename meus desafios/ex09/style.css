@@ -11,9 +11,13 @@ h1{
   color: white;
   text-align: center;
 }
-img{
+main{
+  background-color:rgb(31, 31, 31) ;
+  height: 200px;
+  
   
  
+
 }
 
 div#html{
