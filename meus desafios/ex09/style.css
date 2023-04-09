@@ -3,49 +3,32 @@ body{
   font-family: sans-serif;
   
     background-color: rgb(31, 31, 31);
-    background-repeat: no-repeat;
-   background-position: top center;
-   height: 96vh;
+    
 }
 h1{
   color: white;
   text-align: center;
 }
-main{
-  background-color:rgb(31, 31, 31) ;
-  height: 200px;
+#conteiner{
+  height: 800px;
+  background-color: aqua;
   
-  
- 
-
+  position: relative;
+  padding: 30px;
 }
-
-div#html{
- position: absolute;
- right: 50%;
- bottom: 50%;
- transform: translate(-3px,-275px);
-} 
-
-div#java{
-  position: absolute;
-  left:50%;
-  bottom:50%;
-  transform: translate(+3px,-275px);
-}
-div#hardware{
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  transform: translate(-3px,-275px)
-}
-div#programa{
+#conteudo{
+  height:700px;
+  width: 700px;
+  background-color: black;
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(+3px,-275px)
-
+  top:50%;
 }
+ #html{
+  position: absolute;
+  left: 50%;
+  bottom:50%;
+ }
     
 
 
