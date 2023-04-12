@@ -23,7 +23,7 @@ header >p {
 
 a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
     font-weight: bolder;
 
 }
@@ -35,7 +35,8 @@ a:hover{
 section{
     padding-top:10vh ;
     padding-bottom: 10vh;
-      
+    line-height: 2em;
+    padding-left: 30px;
 }
 section.normal{
     background-color: white;
@@ -45,6 +46,11 @@ section.normal{
 section.imagen{
     background-color: darkgray;
     color: black;
+}
+section.imagen >p{
+    background-color: black;
+    color: white;
+    width: 400px;
 }
 
 footer{
