@@ -19,17 +19,20 @@ html body{
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font01);
+   
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
     
+    
 }
 header >h1 {
     padding-top: 50px;
     font-variant: small-caps; /* deixa as letras maisculas de sendo elas há primeiras e a seguanda */
     font-family: var(--font02); 
+    font-size: 4em;
 }
 header >p {
     padding-bottom: 50px;
@@ -51,6 +54,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font03);
 }
 section.normal{
     background-color: white;
