@@ -32,7 +32,7 @@ header >h1 {
     padding-top: 50px;
     font-variant: small-caps; /* deixa as letras maisculas de sendo elas há primeiras e a seguanda */
     font-family: var(--font02); 
-    font-size: 4em;
+    font-size: 10vw;
 }
 header >p {
     padding-bottom: 50px;
@@ -55,6 +55,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font03);
+    font-size: 3.5vw;
 }
 section.normal{
     background-color: white;
@@ -68,7 +69,9 @@ section.imagen{
 section.imagen >p{
     background-color: black;
     color: white;
-    width: 400px;
+    display: inline-block;
+    padding: 20px;
+  
 }
 
 footer{
