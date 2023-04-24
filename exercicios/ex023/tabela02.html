@@ -7,12 +7,18 @@
     <title>tabela</title>
     <style>
         table{
-         width: 300px;
-         height: 80px;
+         width: 500px;
          border-collapse: collapse;   
         }
+        th{ 
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
         td{
             border: 1px solid black;
+            padding: 10px;
         }
         .titulo{
             background-color: silver;
@@ -22,9 +28,20 @@
         }
         .rodape{
             background-color: silver;
-            color:black;
+            color:white;
             font-weight: bolder;
             text-align: center;
+        }
+       
+        td#numero{
+            text-align: right;
+        }
+        caption{
+            background-color: silver;
+            font-weight: bolder;
+           font-size: 1.4em;
+           padding: 10px;
+
         }
     </style>
 </head>
@@ -32,66 +49,68 @@
     <h1>Uso de tabelas grandes</h1>
     <table>
        <thead>
+        <caption>População das unidades Federativas </caption>
         <tr>
-            <td class="titulo">Estado</td>
-            <td class="titulo">População</td>
-        </tr>
+            <th scope="col" class="titulo">Estado</th>
+            <th scope="col" style="width: 100px;" class="titulo">População</th>
+        </tr> 
        </thead>
        <tbody>
         <tr>
             <td>São Paulo</td>
-            <td>45 919 049</td>
+            <td id="numero">45.919.049</td>
             <tr><td> Minas Gerais</td>
-            <td> 21 168 791</td></tr>
+            <td id="numero"> 21.168.791</td></tr>
             <tr> <td>Rio de janeiro</td>
-            <td>16 615 526	</td> </tr>
-            <tr> <td> bahia </td>
-            <td>14 659 023	</td></tr>
+            <td id="numero">16.615.526	</td> </tr>
+            <tr> <td> Bahia </td>
+            <td id="numero">14.659.023	</td></tr>
             <tr> <td>Paraná</td>
-            <td> 11 835 379</td></tr>
+            <td id="numero"> 11.835.379</td></tr>
             <tr> <td>Rio Grande do sul</td>
-            <td>11 088 065	 </td></tr>
+            <td id="numero">11.088.065	 </td></tr>
             <tr> <td> Pernambuco</td>
-            <td>8 796 448	</td></tr>
+            <td id="numero">8.796.448	</td></tr>
             <tr> 	<td> Ceará</td>
-            <td>8 452 381</td></tr>
+            <td id="numero">8.452.381</td></tr>
             <tr><td>Pará</td>
-            <td>7 581 051	</td></tr>
+            <td id="numero">7.581.051	</td></tr>
             <tr> <td>Santa Catarina</td>
-            <td>7 762 154 </td>	</tr>
+            <td id="numero">7.762.154 </td>	</tr>
             <tr> <td> Goiania</td>
-            <td> 6 950 976	</td></tr>
+            <td id="numero"> 6.950.976	</td></tr>
             <tr> <td> Maranhão</td>
-            <td> 6 800 605	</td></tr>
+            <td id="numero"> 6.800.605	</td></tr>
             <tr> <td> Espirito Santos </td>
-            <td>4 108 508	 </td></tr>
+            <td id="numero">5.300.508	 </td></tr>
             <tr> <td> Paraiba</td>
-            <td>4 108 508	</td></tr>
+            <td id="numero">4.108.508	</td></tr>
             <tr> <td>Amazonas </td>
-            <td> 3 952 262	</td></tr>
+            <td id="numero"> 3.952.262	</td></tr>
             <tr> <td> Mato Grosso</td>
-            <td> 3 784 239	</td></tr>
+            <td id="numero"> 3.784.239	</td></tr>
             <tr> <td> Rio grande do norte</td>
-            <td>3 303 953	 </td></tr>
+            <td id="numero">3.303.953	 </td></tr>
             <tr> <td>Piauí</td>
-            <td>3 270 174</td></tr>
+            <td id="numero">3.270.174</td></tr>
             <tr><td>Alagoas</td>
-            <td>3 125 254	</td></tr>
+            <td id="numero">3.125.254	</td></tr>
             <tr> <td>  Distrito federal</td>
-            <td>2 923 369	</td></tr>
-            <tr>Mato Grosso do sul</tr>
-            <tr> <td>sergipe </td>
-            <td>2 211 868	</td></tr>
+            <td id="numero">2.923.369	</td></tr>
+            <tr><td>Mato Grosso do sul</td>
+             <td id="numero">2.833.742		</td></tr>
+            <tr> <td>Sergipe </td>
+            <td id="numero">2.211.868	</td></tr>
             <tr> <td>Roraima </td>
-            <td> 1 616 379	</td> </tr>
+            <td id="numero"> 1.616.379	</td> </tr>
             <tr> <td> Tocantis</td>
-            <td> 1 584 306	</td></tr>
+            <td id="numero"> 1.584.306	</td></tr>
             <tr><td> Acré </td>
-            <td>829 780	</td></tr>
+            <td id="numero">829.780	</td></tr>
             <tr> <td>Amapa</td>
-             <td>774 268	</td>   
+             <td id="numero">774.268	</td>   
            <tr> <td>Roraima </td>
-        <td> 634 805	</td></tr>
+        <td id="numero"> 634.805	</td></tr>
 
 
 
@@ -100,8 +119,8 @@
        </tbody>
        <tfoot>
         <tr>
-            <td class="rodape">Total de habitantes</td>
-            <td class="rodape">000000</td>
+            <th scope="row" class="rodape">Total de habitantes</th>
+            <th class="rodape">210.147.125 </th>
         </tr>
        </tfoot>
     </table>
