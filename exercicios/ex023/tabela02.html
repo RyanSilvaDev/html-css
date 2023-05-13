@@ -8,23 +8,35 @@
     <style>
         table{
          width: 500px;
-         border-collapse: collapse;   
+         border-collapse: collapse;
+         position: relative;   
         }
         th{ 
             border: 1px solid black;
             padding: 10px;
 
         }
+        
+        thead > tr > th{
+            position:sticky;
+            top:0;
+
+        }
+        
+    
 
         td{
             border: 1px solid black;
             padding: 10px;
         }
         .titulo{
-            background-color: silver;
+            background-fcolor: silver;
             color:black;
             font-weight: bolder;
             text-align: center; 
+        }
+        tbody > tr:nth-child(2n){ /* efeito zebrado */
+            background-color: lightcyan;
         }
         .rodape{
             background-color: silver;
@@ -36,7 +48,7 @@
         td#numero{
             text-align: right;
         }
-        caption{
+        caption{ /* legenda que apare no topo da tabela */
             background-color: silver;
             font-weight: bolder;
            font-size: 1.4em;
